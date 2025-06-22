@@ -2,7 +2,7 @@
 
 A vertically-swiping feed of products for Flutter, inspired by modern e-commerce apps like Daraz and AliExpress. It allows for a rich, engaging product discovery experience.
 
-![GIF of the package in action]https://github.com/mehdinathani/shoppable_feed/blob/main/assets/demo.gif
+![GIF of the package in action](https://github.com/mehdinathani/shoppable_feed/blob/main/assets/demo.gif)
 
 ## Features
 - Infinite vertical scrolling
