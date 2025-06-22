@@ -1,3 +1,7 @@
+## 1.0.2
+
+- update gif image
+
 ## 1.0.1
 
 - Fixed deprecated `withOpacity` calls to use `Color` constructors with alpha values directly, resolving static analysis warnings and improving performance. This brings the package to a 160/160 pub.dev score.
