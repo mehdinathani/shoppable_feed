@@ -67,7 +67,7 @@ class _ProductPageState extends State<ProductPage> {
   Widget _buildTopBar() {
     return Container(
       padding: const EdgeInsets.only(top: 40, left: 16, right: 16, bottom: 10),
-      color: Colors.black.withOpacity(0.3),
+      color: Colors.black.withValues(alpha: 0.3),
       child: Row(
         children: [
           CircleAvatar(
@@ -143,7 +143,7 @@ class _ProductPageState extends State<ProductPage> {
         gradient: LinearGradient(
           begin: Alignment.bottomCenter,
           end: Alignment.topCenter,
-          colors: [Colors.black.withOpacity(0.8), Colors.transparent],
+          colors: [Colors.black.withValues(alpha: .8), Colors.transparent],
         ),
       ),
       child: Column(

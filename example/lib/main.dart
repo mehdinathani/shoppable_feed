@@ -1,5 +1,7 @@
 // In shoppable_feed/example/lib/main.dart
 
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 // This import will now work because of the path dependency
 import 'package:shoppable_feed/shoppable_feed.dart';
@@ -72,7 +74,7 @@ class ExamplePage extends StatelessWidget {
         products: _products,
         initialWatchedProductIds: const ['3'],
         onAddToCart: (product) {
-          print('Add to cart tapped for: ${product.productName}');
+          log('Add to cart tapped for: ${product.productName}');
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(
               content: Text('${product.productName} added to cart!'),
@@ -81,13 +83,13 @@ class ExamplePage extends StatelessWidget {
           );
         },
         onToggleWatch: (product) {
-          print('Watch toggled for: ${product.productName}');
+          log('Watch toggled for: ${product.productName}');
         },
         onShare: (product) {
-          print('Share tapped for: ${product.productName}');
+          log('Share tapped for: ${product.productName}');
         },
         onShowReviews: (product) {
-          print('Show reviews tapped for: ${product.productName}');
+          log('Show reviews tapped for: ${product.productName}');
           showModalBottomSheet(
             context: context,
             builder:
@@ -97,7 +99,7 @@ class ExamplePage extends StatelessWidget {
           );
         },
         onFollow: (product) {
-          print('Follow tapped for seller: ${product.sellerName}');
+          log('Follow tapped for seller: ${product.sellerName}');
         },
       ),
     );
