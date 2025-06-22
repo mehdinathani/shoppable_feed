@@ -1,39 +1,33 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Shoppable Feed
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+A vertically-swiping feed of products for Flutter, inspired by modern e-commerce apps like Daraz and AliExpress. It allows for a rich, engaging product discovery experience.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+![GIF of the package in action](https://your-gif-url.com/demo.gif)  <-- IMPORTANT: Record a GIF!
 
 ## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Infinite vertical scrolling
+- Rich, customizable UI for product details
+- Stateful action buttons (Add to Cart, Watchlist, etc.)
+- Exposes callbacks for all user interactions
 
 ## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+Add the dependency to your `pubspec.yaml`:
+```yaml
+dependencies:
+  shoppable_feed: ^1.0.0
 ```
 
-## Additional information
+## Usage
+Import the package and use the `ShoppableFeed` widget.
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```dart
+import 'package:shoppable_feed/shoppable_feed.dart';
+
+// See the `example` tab for a full implementation.
+ShoppableFeed(
+    products: myListOfProducts,
+    onAddToCart: (product) { ... },
+    onToggleWatch: (product) { ... },
+    // ... implement other callbacks
+)
+```

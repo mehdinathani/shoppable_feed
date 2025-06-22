@@ -2,7 +2,9 @@ name: shoppable_feed
 description: A vertically-swiping feed of products, inspired by modern e-commerce apps like Daraz and AliExpress. Allows for a rich, engaging product discovery experience.
 
 version: 0.0.1
-homepage:
+homepage: https://github.com/mehdinathani/shoppable_feed
+repository: https://github.com/mehdinathani/shoppable_feed
+
 
 environment:
   sdk: ^3.7.2
