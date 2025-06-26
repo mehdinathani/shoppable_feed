@@ -1,3 +1,8 @@
+## 1.0.4
+
+- update folder structure for best practice
+
+
 ## 1.0.3
 
 - update gif image link
