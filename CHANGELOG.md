@@ -1,3 +1,8 @@
+## 1.0.5
+
+- update repo org address, no change in code.
+
+
 ## 1.0.4
 
 - update folder structure for best practice
