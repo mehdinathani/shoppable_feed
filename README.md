@@ -4,7 +4,8 @@ A **vertically swiping, full-screen product feed** widget for Flutter — inspir
 
 > ⚡ Built from scratch using core Flutter widgets – no third-party UI dependencies.
 
-![Shoppable Feed Demo](https://raw.githubusercontent.com/mehdinathani/shoppable_feed/main/assets/demo.gif)
+![Shoppable Feed Demo](screenshots/demo.gif) 
+(https://raw.githubusercontent.com/mehdinathani/shoppable_feed/refs/heads/main/assets/demo.gif)
 
 ---
 
