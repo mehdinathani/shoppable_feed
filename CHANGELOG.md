@@ -1,3 +1,7 @@
+## 1.0.6
+
+- update readme for addressing enhancements requests, no change in code.
+
 ## 1.0.5
 
 - update repo org address, no change in code.
